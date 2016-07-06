@@ -1,0 +1,8 @@
+name: EmotionStand
+main: me.phil14052.EmotionStand.EmotionStand
+version: 1.0
+author: phil14052
+description: Adds the ability to...
+commands:
+  emotions:
+    description: EmotionStand Plugin Main Command
