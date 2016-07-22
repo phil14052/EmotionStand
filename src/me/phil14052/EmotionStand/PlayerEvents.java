@@ -40,7 +40,7 @@ public class PlayerEvents implements Listener{
 		if(!e.getCurrentItem().getItemMeta().hasDisplayName()) return;
 		ItemMeta im = e.getCurrentItem().getItemMeta();
 		Player p = (Player) e.getWhoClicked();
-		if(!e.getInventory().getTitle().equals("Â§cÂ§lChoose an emotion:")) return;
+		if(!e.getInventory().getTitle().equals("§c§lChoose an emotion:")) return;
 		e.setCancelled(true);
 		if(im.getDisplayName().equals("Hello")){
 			p.closeInventory();

@@ -13,7 +13,7 @@ public class ChooseEmotionGUI {
 	private Inventory inv;
 	public ChooseEmotionGUI(Player p){
 		this.p = p;
-		inv = Bukkit.createInventory(null, 9, "Â§cÂ§lChoose an emotion:");
+		inv = Bukkit.createInventory(null, 9, "§c§lChoose an emotion:");
 		ItemStack is = new ItemStack(Material.APPLE);
 		ItemMeta im = is.getItemMeta();
 		im.setDisplayName("Hello");

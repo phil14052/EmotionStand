@@ -108,7 +108,7 @@ public class DabEmotion implements Emotion,Listener{
 				double e = 0.007550782857; //1% of the rotation (2,71828182845904523536028747135266249/360)
 				if(frame > 10 && frame < 15){
 					EulerAngle pose = as.getRightArmPose();
-					pose = pose.subtract((e*38)*2, 0D,(e*14.7)*2);
+					pose = pose.subtract((e*38)*2, 0D,(e*25.7)*2);
 					as.setRightArmPose(pose);
 					EulerAngle pose2 = as.getLeftArmPose();
 					pose2 = pose2.subtract((e*10)*2, 0D,0D);
@@ -120,7 +120,7 @@ public class DabEmotion implements Emotion,Listener{
 					as.setHeadPose(pose3);
 				}else if(frame > 40 && frame < 50){
 					EulerAngle pose = as.getRightArmPose();
-					pose = pose.add(e*38, 0D,e*14.7);
+					pose = pose.add(e*38, 0D,e*25.7);
 					as.setRightArmPose(pose);
 					EulerAngle pose2 = as.getLeftArmPose();
 					pose2 = pose2.add(e*10, 0D,0D);
